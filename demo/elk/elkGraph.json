@@ -6,9 +6,6 @@
       "labels": [
         {
           "text": "DatagramReader",
-          "layoutOptions": {
-            "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-          },
           "width": 100.0,
           "height": 12.0
         }
@@ -17,43 +14,24 @@
         {
           "id": "p1",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "EAST",
-            "port.index": "0"
-          }
+          "height": 7
         },
         {
           "id": "p2",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "EAST",
-            "port.index": "1"
-          }
+          "height": 7
         },
         {
           "id": "p3",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "EAST",
-            "port.index": "2"
-          }
+          "height": 7
         },
         {
           "id": "p4",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "3"
-          }
+          "height": 7
         }
       ],
-      "layoutOptions": {
-        "portConstraints": "FIXED_ORDER"
-      },
       "width": 55.0,
       "height": 40.0
     },
@@ -62,9 +40,6 @@
       "labels": [
         {
           "text": "Ramp",
-          "layoutOptions": {
-            "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-          },
           "width": 50.0,
           "height": 12.0
         }
@@ -73,34 +48,19 @@
         {
           "id": "p1_g837978",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "0"
-          }
+          "height": 7
         },
         {
           "id": "p2_g739884",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "1"
-          }
+          "height": 7
         },
         {
           "id": "p3_g539420",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "EAST",
-            "port.index": "2"
-          }
+          "height": 7
         }
       ],
-      "layoutOptions": {
-        "portConstraints": "FIXED_ORDER"
-      },
       "width": 55.0,
       "height": 40.0
     },
@@ -109,9 +69,6 @@
       "labels": [
         {
           "text": "QueueControl",
-          "layoutOptions": {
-            "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-          },
           "width": 100.0,
           "height": 12.0
         }
@@ -120,70 +77,39 @@
         {
           "id": "p1_g572291",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "0"
-          }
+          "height": 7
         },
         {
           "id": "p2_g653563",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "1"
-          }
+          "height": 7
         },
         {
           "id": "p3_g722216",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "2"
-          }
+          "height": 7
         },
         {
           "id": "p4_g748499",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "3"
-          }
+          "height": 7
         },
         {
           "id": "p5",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "EAST",
-            "port.index": "4"
-          }
+          "height": 7
         },
         {
           "id": "p6",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "EAST",
-            "port.index": "5"
-          }
+          "height": 7
         },
         {
           "id": "p7",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "EAST",
-            "port.index": "6"
-          }
+          "height": 7
         }
       ],
-      "layoutOptions": {
-        "portConstraints": "FIXED_ORDER"
-      },
       "width": 55.0,
       "height": 40.0
     },
@@ -192,9 +118,6 @@
       "labels": [
         {
           "text": "Display",
-          "layoutOptions": {
-            "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-          },
           "width": 35.0,
           "height": 12.0
         }
@@ -203,16 +126,9 @@
         {
           "id": "p1_g255145",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "0"
-          }
+          "height": 7
         }
       ],
-      "layoutOptions": {
-        "portConstraints": "FIXED_ORDER"
-      },
       "width": 35.0,
       "height": 27.0
     },
@@ -221,9 +137,6 @@
       "labels": [
         {
           "text": "Interface - fast",
-          "layoutOptions": {
-            "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-          },
           "width": 10.0,
           "height": 12.0
         }
@@ -232,20 +145,12 @@
         {
           "id": "p1_g820682",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "0"
-          }
+          "height": 7
         },
         {
           "id": "p2_g506569",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "EAST",
-            "port.index": "1"
-          }
+          "height": 7
         }
       ],
       "children": [
@@ -254,9 +159,6 @@
           "labels": [
             {
               "text": "Sleep",
-              "layoutOptions": {
-                "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-              },
               "width": 50.0,
               "height": 12.0
             }
@@ -265,41 +167,23 @@
             {
               "id": "p1_g582202",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "WEST",
-                "port.index": "0"
-              }
+              "height": 7
             },
             {
               "id": "p2_g036217",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "EAST",
-                "port.index": "1"
-              }
+              "height": 7
             },
             {
               "id": "p3_g791687",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "SOUTH",
-                "port.index": "2"
-              }
+              "height": 7
             }
           ],
-          "layoutOptions": {
-            "portConstraints": "FIXED_ORDER"
-          },
           "width": 50.0,
           "height": 35.0
         }
       ],
-      "layoutOptions": {
-        "portConstraints": "FIXED_ORDER"
-      },
       "edges": [
         {
           "id": "e15",
@@ -326,9 +210,6 @@
       "labels": [
         {
           "text": "Interface - slow",
-          "layoutOptions": {
-            "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-          },
           "width": 100.0,
           "height": 12.0
         }
@@ -337,20 +218,12 @@
         {
           "id": "p1_g261431",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "0"
-          }
+          "height": 7
         },
         {
           "id": "p2_g518944",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "EAST",
-            "port.index": "1"
-          }
+          "height": 7
         }
       ],
       "children": [
@@ -359,9 +232,6 @@
           "labels": [
             {
               "text": "Sleep",
-              "layoutOptions": {
-                "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-              },
               "width": 50.0,
               "height": 12.0
             }
@@ -370,41 +240,23 @@
             {
               "id": "p1_g587373",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "WEST",
-                "port.index": "0"
-              }
+              "height": 7
             },
             {
               "id": "p2_g014361",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "EAST",
-                "port.index": "1"
-              }
+              "height": 7
             },
             {
               "id": "p3_g749816",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "SOUTH",
-                "port.index": "2"
-              }
+              "height": 7
             }
           ],
-          "layoutOptions": {
-            "portConstraints": "FIXED_ORDER"
-          },
           "width": 50.0,
           "height": 35.0
         }
       ],
-      "layoutOptions": {
-        "portConstraints": "FIXED_ORDER"
-      },
       "edges": [
         {
           "id": "e17",
@@ -431,9 +283,6 @@
       "labels": [
         {
           "text": "Counter - q1",
-          "layoutOptions": {
-            "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-          },
           "width": 55.0,
           "height": 12.0
         }
@@ -442,34 +291,19 @@
         {
           "id": "p1_g650325",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "0"
-          }
+          "height": 7
         },
         {
           "id": "p2_g732355",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "1"
-          }
+          "height": 7
         },
         {
           "id": "p3_g158827",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "EAST",
-            "port.index": "2"
-          }
+          "height": 7
         }
       ],
-      "layoutOptions": {
-        "portConstraints": "FIXED_ORDER"
-      },
       "width": 55.0,
       "height": 35.0
     },
@@ -478,9 +312,6 @@
       "labels": [
         {
           "text": "Counter - q2",
-          "layoutOptions": {
-            "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-          },
           "width": 55.0,
           "height": 12.0
         }
@@ -489,34 +320,19 @@
         {
           "id": "p1_g006148",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "0"
-          }
+          "height": 7
         },
         {
           "id": "p2_g008338",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "1"
-          }
+          "height": 7
         },
         {
           "id": "p3_g606176",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "EAST",
-            "port.index": "2"
-          }
+          "height": 7
         }
       ],
-      "layoutOptions": {
-        "portConstraints": "FIXED_ORDER"
-      },
       "width": 55.0,
       "height": 35.0
     },
@@ -525,9 +341,6 @@
       "labels": [
         {
           "text": "channel1",
-          "layoutOptions": {
-            "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-          },
           "width": 50.0,
           "height": 12.0
         }
@@ -536,11 +349,7 @@
         {
           "id": "p1_g044769",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "0"
-          }
+          "height": 7
         }
       ],
       "children": [
@@ -549,9 +358,6 @@
           "labels": [
             {
               "text": "Counter",
-              "layoutOptions": {
-                "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-              },
               "width": 75.0,
               "height": 12.0
             }
@@ -560,34 +366,19 @@
             {
               "id": "p1_g924853",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "WEST",
-                "port.index": "0"
-              }
+              "height": 7
             },
             {
               "id": "p2_g825798",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "WEST",
-                "port.index": "1"
-              }
+              "height": 7
             },
             {
               "id": "p3_g627665",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "EAST",
-                "port.index": "2"
-              }
+              "height": 7
             }
           ],
-          "layoutOptions": {
-            "portConstraints": "FIXED_ORDER"
-          },
           "width": 55.0,
           "height": 35.0
         },
@@ -596,9 +387,6 @@
           "labels": [
             {
               "text": "RecordAssembler",
-              "layoutOptions": {
-                "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-              },
               "width": 100.0,
               "height": 12.0
             }
@@ -607,34 +395,19 @@
             {
               "id": "p1_g710134",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "WEST",
-                "port.index": "0"
-              }
+              "height": 7
             },
             {
               "id": "p2_g774554",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "WEST",
-                "port.index": "1"
-              }
+              "height": 7
             },
             {
               "id": "p3_g935869",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "EAST",
-                "port.index": "2"
-              }
+              "height": 7
             }
           ],
-          "layoutOptions": {
-            "portConstraints": "FIXED_ORDER"
-          },
           "width": 10.0,
           "height": 40.0
         },
@@ -643,9 +416,6 @@
           "labels": [
             {
               "text": "Display",
-              "layoutOptions": {
-                "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-              },
               "width": 50.0,
               "height": 12.0
             }
@@ -654,23 +424,13 @@
             {
               "id": "p1_g849516",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "WEST",
-                "port.index": "0"
-              }
+              "height": 7
             }
           ],
-          "layoutOptions": {
-            "portConstraints": "FIXED_ORDER"
-          },
           "width": 35.0,
           "height": 27.0
         }
       ],
-      "layoutOptions": {
-        "portConstraints": "FIXED_ORDER"
-      },
       "edges": [
         {
           "id": "e19",
@@ -715,9 +475,6 @@
       "labels": [
         {
           "text": "channel2",
-          "layoutOptions": {
-            "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-          },
           "width": 50.0,
           "height": 12.0
         }
@@ -726,11 +483,7 @@
         {
           "id": "p1_g598580",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "0"
-          }
+          "height": 7
         }
       ],
       "children": [
@@ -739,9 +492,6 @@
           "labels": [
             {
               "text": "Counter",
-              "layoutOptions": {
-                "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-              },
               "width": 75.0,
               "height": 12.0
             }
@@ -750,32 +500,17 @@
             {
               "id": "p1_g439211",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "WEST",
-                "port.index": "0"
-              }
+              "height": 7
             },
             {
               "id": "p2_g586159",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "WEST",
-                "port.index": "1"
-              }
+              "height": 7
             },
             {
-              "id": "p3_g324437",
-              "layoutOptions": {
-                "port.side": "EAST",
-                "port.index": "2"
-              }
+              "id": "p3_g324437"
             }
           ],
-          "layoutOptions": {
-            "portConstraints": "FIXED_ORDER"
-          },
           "width": 55.0,
           "height": 35.0
         },
@@ -784,9 +519,6 @@
           "labels": [
             {
               "text": "RecordAssembler",
-              "layoutOptions": {
-                "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-              },
               "width": 100.0,
               "height": 12.0
             }
@@ -795,34 +527,19 @@
             {
               "id": "p1_g816526",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "WEST",
-                "port.index": "0"
-              }
+              "height": 7
             },
             {
               "id": "p2_g800534",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "WEST",
-                "port.index": "1"
-              }
+              "height": 7
             },
             {
               "id": "p3_g930851",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "EAST",
-                "port.index": "2"
-              }
+              "height": 7
             }
           ],
-          "layoutOptions": {
-            "portConstraints": "FIXED_ORDER"
-          },
           "width": 10.0,
           "height": 40.0
         },
@@ -831,9 +548,6 @@
           "labels": [
             {
               "text": "Display",
-              "layoutOptions": {
-                "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-              },
               "width": 50.0,
               "height": 12.0
             }
@@ -842,23 +556,13 @@
             {
               "id": "p1_g183964",
               "width": 7,
-              "height": 7,
-              "layoutOptions": {
-                "port.side": "WEST",
-                "port.index": "0"
-              }
+              "height": 7
             }
           ],
-          "layoutOptions": {
-            "portConstraints": "FIXED_ORDER"
-          },
           "width": 35.0,
           "height": 27.0
         }
       ],
-      "layoutOptions": {
-        "portConstraints": "FIXED_ORDER"
-      },
       "edges": [
         {
           "id": "e23",
@@ -903,9 +607,6 @@
       "labels": [
         {
           "text": "MonitorValue - q1 length",
-          "layoutOptions": {
-            "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-          },
           "width": 150.0,
           "height": 12.0
         }
@@ -914,16 +615,9 @@
         {
           "id": "p1_g445341",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "0"
-          }
+          "height": 7
         }
       ],
-      "layoutOptions": {
-        "portConstraints": "FIXED_ORDER"
-      },
       "width": 55.0,
       "height": 40.0
     },
@@ -932,9 +626,6 @@
       "labels": [
         {
           "text": "MonitorValue - q2 length",
-          "layoutOptions": {
-            "nodeLabels.placement": "[H_LEFT, V_TOP, OUTSIDE]"
-          },
           "width": 150.0,
           "height": 12.0
         }
@@ -943,16 +634,9 @@
         {
           "id": "p1_g930680",
           "width": 7,
-          "height": 7,
-          "layoutOptions": {
-            "port.side": "WEST",
-            "port.index": "0"
-          }
+          "height": 7
         }
       ],
-      "layoutOptions": {
-        "portConstraints": "FIXED_ORDER"
-      },
       "width": 55.0,
       "height": 40.0
     }

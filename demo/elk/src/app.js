@@ -107,7 +107,6 @@ export const init = () => {
                         label: {
                             fontSize: label.height,
                             text: label.text,
-                            ...getLabelPlacement(label)
                         }
                     }
                 });
@@ -223,29 +222,29 @@ const placementsOptions = {
     V_CENTER: 'V_CENTER',
 };
 
-const getLabelPlacement = label => {
-    const placement = {};
+// const getLabelPlacement = label => {
+//     const placement = {};
 
-    const nodeLabelPlacements = label.layoutOptions['nodeLabels.placement'];
-    if (nodeLabelPlacements.includes(placementsOptions.H_RIGHT)) {
-        placement.textAnchor = 'end';
-        placement.x = label.width;
-    } else if (nodeLabelPlacements.includes(placementsOptions.H_LEFT)) {
-        placement.textAnchor = 'start';
-    } else if (nodeLabelPlacements.includes(placementsOptions.H_CENTER)) {
-        placement.textAnchor = 'middle';
-        placement.x = label.width / 2;
-    }
+//     const nodeLabelPlacements = label.layoutOptions['nodeLabels.placement'];
+//     if (nodeLabelPlacements.includes(placementsOptions.H_RIGHT)) {
+//         placement.textAnchor = 'end';
+//         placement.x = label.width;
+//     } else if (nodeLabelPlacements.includes(placementsOptions.H_LEFT)) {
+//         placement.textAnchor = 'start';
+//     } else if (nodeLabelPlacements.includes(placementsOptions.H_CENTER)) {
+//         placement.textAnchor = 'middle';
+//         placement.x = label.width / 2;
+//     }
 
-    if (nodeLabelPlacements.includes(placementsOptions.V_TOP)) {
-        placement.textVerticalAnchor = 'top';
-    } else if (nodeLabelPlacements.includes(placementsOptions.V_BOTTOM)) {
-        placement.textVerticalAnchor = 'bottom';
-        placement.y = label.height;
-    } else if (nodeLabelPlacements.includes(placementsOptions.V_CENTER)) {
-        placement.textVerticalAnchor = 'middle';
-        placement.y = label.height / 2;
-    }
+//     if (nodeLabelPlacements.includes(placementsOptions.V_TOP)) {
+//         placement.textVerticalAnchor = 'top';
+//     } else if (nodeLabelPlacements.includes(placementsOptions.V_BOTTOM)) {
+//         placement.textVerticalAnchor = 'bottom';
+//         placement.y = label.height;
+//     } else if (nodeLabelPlacements.includes(placementsOptions.V_CENTER)) {
+//         placement.textVerticalAnchor = 'middle';
+//         placement.y = label.height / 2;
+//     }
 
-    return placement;
-};
+//     return placement;
+// };
